@@ -1,0 +1,170 @@
+WARNING: ignoring environment value of R_HOME
+$options
+$options$input.gct.file
+[1] "/opt/gpcloud/gp_home/jobResults/444245/AllCorr_C2ALL.gct"
+
+$options$input.cls.file
+[1] "/opt/gpcloud/gp_home/users/haasp100/tmp/run2971824814845097955.tmp/input.cls.file/1/cls_updown.cls"
+
+$options$gene.sets.file
+[1] "/opt/gpcloud/gp_home/users/.cache/cache/gpftp.broadinstitute.org/module_support_files/msigdb/gmt/c2.all.v7.5.1.symbols.gmt"
+
+$options$top.n
+[1] "100"
+
+$options$direction
+[1] "positive"
+
+$options$image.format
+[1] "PNG"
+
+$options$jaccard.threshold
+[1] "0.1"
+
+$options$help
+[1] FALSE
+
+
+$args
+[1] "/opt/gpcloud/gp_home/taskLib/ConstellationMap.1.4.18.2180/"
+
+R version 3.0.3 (2014-03-06)
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] splines   grid      methods   stats     graphics  grDevices utils    
+[8] datasets  base     
+
+other attached packages:
+ [1] nnls_1.4             scatterplot3d_0.3-35 polynom_1.3-8       
+ [4] Hmisc_3.12-2         survival_2.37-7      Formula_1.2-2       
+ [7] proto_1.0.0          gtable_0.2.0         digest_0.6.12       
+[10] labeling_0.3         munsell_0.4.3        colorspace_1.3-2    
+[13] dichromat_2.0-0      RColorBrewer_1.1-2   stringr_0.6.2       
+[16] magrittr_1.5         stringi_1.1.5        plotrix_3.5-7       
+[19] parmigene_1.0.2      maptools_0.8-30      sp_1.0-17           
+[22] gmodels_2.15.4.1     gdata_2.17.0         gtools_3.4.1        
+[25] calibrate_1.7.2      smacof_1.5-0         rgl_0.93.996        
+[28] verification_1.40    dtw_1.17-1           proxy_0.4-16        
+[31] CircStats_0.2-4      boot_1.3-16          fields_8.2-1        
+[34] maps_3.1.1           spam_1.4-0           MASS_7.3-33         
+[37] CvM2SL2Test_2.0-1    optparse_1.2.0       getopt_1.20.0       
+
+loaded via a namespace (and not attached):
+[1] cluster_1.14.4  foreign_0.8-59  lattice_0.20-27 rpart_4.1-5    
+[5] tools_3.0.3    
+  [1] "RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_UP"                               
+  [2] "FORTSCHEGGER_PHF8_TARGETS_UP"                                        
+  [3] "SHETH_LIVER_CANCER_VS_TXNIP_LOSS_PAM1"                               
+  [4] "GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN"                              
+  [5] "SWEET_LUNG_CANCER_KRAS_UP"                                           
+  [6] "REACTOME_RHOA_GTPASE_CYCLE"                                          
+  [7] "WAMUNYOKOLI_OVARIAN_CANCER_LMP_UP"                                   
+  [8] "MARTINEZ_TP53_TARGETS_DN"                                            
+  [9] "ONDER_CDH1_TARGETS_2_DN"                                             
+ [10] "BURTON_ADIPOGENESIS_6"                                               
+ [11] "RUTELLA_RESPONSE_TO_HGF_UP"                                          
+ [12] "SCHAEFFER_PROSTATE_DEVELOPMENT_48HR_UP"                              
+ [13] "LI_AMPLIFIED_IN_LUNG_CANCER"                                         
+ [14] "NUYTTEN_NIPP1_TARGETS_DN"                                            
+ [15] "NOUZOVA_TRETINOIN_AND_H4_ACETYLATION"                                
+ [16] "CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_3"                            
+ [17] "REACTOME_METABOLISM_OF_LIPIDS"                                       
+ [18] "ALCALA_APOPTOSIS"                                                    
+ [19] "CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN"                           
+ [20] "FARMER_BREAST_CANCER_APOCRINE_VS_LUMINAL"                            
+ [21] "MARTINEZ_RB1_AND_TP53_TARGETS_DN"                                    
+ [22] "MILI_PSEUDOPODIA_HAPTOTAXIS_DN"                                      
+ [23] "MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3"                        
+ [24] "WELCSH_BRCA1_TARGETS_DN"                                             
+ [25] "DODD_NASOPHARYNGEAL_CARCINOMA_UP"                                    
+ [26] "REACTOME_PLATELET_CALCIUM_HOMEOSTASIS"                               
+ [27] "YAGI_AML_WITH_INV_16_TRANSLOCATION"                                  
+ [28] "IVANOVA_HEMATOPOIESIS_MATURE_CELL"                                   
+ [29] "IBRAHIM_NRF2_UP"                                                     
+ [30] "REACTOME_PHOSPHOLIPID_METABOLISM"                                    
+ [31] "RUTELLA_RESPONSE_TO_HGF_VS_CSF2RB_AND_IL4_DN"                        
+ [32] "FULCHER_INFLAMMATORY_RESPONSE_LECTIN_VS_LPS_UP"                      
+ [33] "BUYTAERT_PHOTODYNAMIC_THERAPY_STRESS_DN"                             
+ [34] "GABRIELY_MIR21_TARGETS"                                              
+ [35] "CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP"                     
+ [36] "REACTOME_RHO_GTPASE_CYCLE"                                           
+ [37] "REACTOME_PLATELET_HOMEOSTASIS"                                       
+ [38] "BASAKI_YBX1_TARGETS_DN"                                              
+ [39] "ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_DN"                    
+ [40] "JINESH_BLEBBISHIELD_TO_IMMUNE_CELL_FUSION_PBSHMS_UP"                 
+ [41] "SMID_BREAST_CANCER_BASAL_DN"                                         
+ [42] "ZHONG_RESPONSE_TO_AZACITIDINE_AND_TSA_UP"                            
+ [43] "KEGG_CALCIUM_SIGNALING_PATHWAY"                                      
+ [44] "KIM_ALL_DISORDERS_CALB1_CORR_UP"                                     
+ [45] "GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN"                           
+ [46] "ONKEN_UVEAL_MELANOMA_UP"                                             
+ [47] "ALFANO_MYC_TARGETS"                                                  
+ [48] "HELLER_HDAC_TARGETS_SILENCED_BY_METHYLATION_UP"                      
+ [49] "RUTELLA_RESPONSE_TO_HGF_VS_CSF2RB_AND_IL4_UP"                        
+ [50] "HUTTMANN_B_CLL_POOR_SURVIVAL_UP"                                     
+ [51] "KEGG_ALZHEIMERS_DISEASE"                                             
+ [52] "CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5"                            
+ [53] "MONNIER_POSTRADIATION_TUMOR_ESCAPE_UP"                               
+ [54] "REACTOME_SIGNALING_BY_RHO_GTPASES_MIRO_GTPASES_AND_RHOBTB3"          
+ [55] "MARTINEZ_RB1_TARGETS_UP"                                             
+ [56] "HORIUCHI_WTAP_TARGETS_DN"                                            
+ [57] "ENK_UV_RESPONSE_EPIDERMIS_DN"                                        
+ [58] "SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP"                           
+ [59] "LAIHO_COLORECTAL_CANCER_SERRATED_UP"                                 
+ [60] "WANG_LMO4_TARGETS_UP"                                                
+ [61] "DEURIG_T_CELL_PROLYMPHOCYTIC_LEUKEMIA_DN"                            
+ [62] "MOHANKUMAR_HOXA1_TARGETS_UP"                                         
+ [63] "IVANOVA_HEMATOPOIESIS_STEM_CELL_AND_PROGENITOR"                      
+ [64] "REACTOME_CARDIAC_CONDUCTION"                                         
+ [65] "REACTOME_ION_HOMEOSTASIS"                                            
+ [66] "REACTOME_ION_CHANNEL_TRANSPORT"                                      
+ [67] "FARMER_BREAST_CANCER_APOCRINE_VS_BASAL"                              
+ [68] "MULLIGHAN_MLL_SIGNATURE_2_UP"                                        
+ [69] "RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_POORLY_DN"                      
+ [70] "REACTOME_MUSCLE_CONTRACTION"                                         
+ [71] "WP_ALZHEIMERS_DISEASE_AND_MIRNA_EFFECTS"                             
+ [72] "WP_ALZHEIMERS_DISEASE"                                               
+ [73] "TARTE_PLASMA_CELL_VS_PLASMABLAST_DN"                                 
+ [74] "KIM_ALL_DISORDERS_OLIGODENDROCYTE_NUMBER_CORR_UP"                    
+ [75] "LIM_MAMMARY_STEM_CELL_DN"                                            
+ [76] "PATIL_LIVER_CANCER"                                                  
+ [77] "TOYOTA_TARGETS_OF_MIR34B_AND_MIR34C"                                 
+ [78] "LINDGREN_BLADDER_CANCER_CLUSTER_3_UP"                                
+ [79] "KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN"                                 
+ [80] "PECE_MAMMARY_STEM_CELL_UP"                                           
+ [81] "REACTOME_SRP_DEPENDENT_COTRANSLATIONAL_PROTEIN_TARGETING_TO_MEMBRANE"
+ [82] "SCHAEFFER_PROSTATE_DEVELOPMENT_6HR_DN"                               
+ [83] "PASQUALUCCI_LYMPHOMA_BY_GC_STAGE_UP"                                 
+ [84] "GEORGES_TARGETS_OF_MIR192_AND_MIR215"                                
+ [85] "BENPORATH_ES_1"                                                      
+ [86] "GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS"                                  
+ [87] "KYNG_WERNER_SYNDROM_AND_NORMAL_AGING_DN"                             
+ [88] "REACTOME_ION_TRANSPORT_BY_P_TYPE_ATPASES"                            
+ [89] "GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP"                              
+ [90] "BENPORATH_SOX2_TARGETS"                                              
+ [91] "OSMAN_BLADDER_CANCER_UP"                                             
+ [92] "WANG_TUMOR_INVASIVENESS_DN"                                          
+ [93] "REACTOME_GOLGI_TO_ER_RETROGRADE_TRANSPORT"                           
+ [94] "GRAESSMANN_RESPONSE_TO_MC_AND_DOXORUBICIN_DN"                        
+ [95] "REACTOME_EUKARYOTIC_TRANSLATION_INITIATION"                          
+ [96] "BLUM_RESPONSE_TO_SALIRASIB_UP"                                       
+ [97] "REN_ALVEOLAR_RHABDOMYOSARCOMA_DN"                                    
+ [98] "BENPORATH_NANOG_TARGETS"                                             
+ [99] "BURTON_ADIPOGENESIS_5"                                               
+[100] "WP_CALCIUM_REGULATION_IN_CARDIAC_CELLS"                              
+[1] "AllCorr_C2ALL.c2.all.v7.5.1.symbols.UP.CONSTELLATION_MAP.png"
+[1] 0
+null device 
+          1 
+[1] TRUE
+[1] TRUE
+[1] TRUE
